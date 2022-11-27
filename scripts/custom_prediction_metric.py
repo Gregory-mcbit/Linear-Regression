@@ -41,4 +41,6 @@ class CustomAccuracy:
         return self.accuracy
 
     def calculate_percentages(self) -> int:
+        if self.accuracy == 0:
+            self.accuracy = calculate()
         return self.accuracy * 100
