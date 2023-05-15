@@ -38,7 +38,7 @@ def main():
 
         return f"\n\nУспех! Гистограммы, показывающие точность предсказаний, находятся в папке hists\nТочность " \
                f"предсказания цены закрытия в процентах: {close_accuracy_in_percents}\nТочность предсказания цены " \
-               f"закрытия в процентах: {open_accuracy_in_percents}. "
+               f"открытия в процентах: {open_accuracy_in_percents}. "
 
     else:
         error = url_error.UrlError("Ошибка соединения")
